@@ -33,7 +33,7 @@ command_exists() {
 get_distribution
 if ! test -f $ENV_PATH; then
   mkdir -p $ENV_BASE_PATH
-  curl -o $ENV_PATH $URL_ENV
+  curl -sS -o $ENV_PATH $URL_ENV
   echo $API_KEY >> $ENV_PATH
 fi
 
