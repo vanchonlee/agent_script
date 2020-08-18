@@ -2,7 +2,7 @@
 
 AGENT_VERSION="master"
 NAME_AGENT="vmonitor-agent"
-BASE_URL="http://172.23.0.2/"
+BASE_URL="https://raw.githubusercontent.com/vanchonlee/agent_script/master/"
 URL_INSTALL_DOCKER=$BASE_URL"docker_"
 URL_ENV=$BASE_URL"env"
 ENV_BASE_PATH="/opt/agent/"
