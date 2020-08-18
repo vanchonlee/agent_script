@@ -1,0 +1,12 @@
+MONASCA_URL=https://vmonitor.vngcloud.tech/v2.0/
+REGION_NAME=RegionOne
+OS_USERNAME=monitor-agent
+OS_PASSWORD=znhEZiVOuTA1
+OS_AUTH_URL=https://auth.vngcloud.tech/v3/
+OS_PROJECT_NAME=dal
+SERVICE_TYPE=monitoring
+OS_ENDPOINT_TYPE=publicURL
+AGENT_HOSTNAME=test-monitor
+TIMESTAMP_SLUG=default
+LOG_LEVEL=DEBUG
+API_KEY=
