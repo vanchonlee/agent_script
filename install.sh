@@ -67,7 +67,6 @@ if command_exists docker ; then
   --restart always \
   --env-file $ENV_PATH \
   --name agent-collector \
-  -v /etc/agent/conf:/etc/monasca/agent \
   -v /:/rootfs:ro \
   -v /run/:/run/:shared \
   -v /dev:/dev:rw \
